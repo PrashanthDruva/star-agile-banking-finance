@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: financeme
-        image: prashanthdruva/bankingfinance:latest
+        image: prashanthdruva/docker_assignment1:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
